@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    background-image: url(/image/download\ \(2\).jpg);
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.Dados {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white ;
+    padding: 20px;
+}

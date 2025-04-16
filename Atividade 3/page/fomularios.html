@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Criação de Personagem de RPG</h1>
+    <div class="Dados">
+        <form action="/action_page.php">
+            <fieldset>
+                <legend><b>Dados Básicos</b></legend>
+                <label for="personagem"><b>Nome do Personagem</b></label>
+                <input type="text" placeholder="Insira o nome do personagem">
+                <br>
+                <label for="raca"><b>Raça</b></label>
+                <select name="select" id="raca-itens">
+                    <option value="1">Humano</option>
+                    <option value="2">Elfo</option>
+                    <option value="3">Anão</option>
+                    <option value="4">Orc</option>
+                </select>
+                <br>
+                <label for="classe"><b>Classe</b></label> <br>
+                <input type="radio" name="classe">
+                <label for="guerreiro">Guerreiro</label> <br>
+                <input type="radio" name="classe">
+                <label for="mago">Mago</label> <br>
+                <input type="radio" name="classe">
+                <label for="ladino">Ladino</label><br>
+                <input type="radio" name="classe">
+                <label for="Clérigo">Clérigo</label><br>
+                <br>
+                <label for="alinha"><b>Alinhamento</b></label>
+                <select name="personalidade" id="perso-valores">
+                    <option value="1">Legal</option>
+                    <option value="2">Bom</option>
+                    <option value="3">Neutro</option>
+                    <option value="4">Caótico</option>
+                    <option value="5">Mal</option>
+                </select>
+                <br>
+                <label for="idade"><b>Idade</b></label>
+                <input type="number" placeholder="Insira a sua idade">
+                <br>
+                <label for="genero">Genero</label><br>
+                <input type="radio">
+                <label for="genero">Masculino</label>
+                <input type="radio">
+                <label for="genero">Feminino</label>
+                <input type="radio">
+                <label for="genero">Não-binário</label>
+            </fieldset>
+            <fieldset>
+                <legend><b>Atributos</b></legend>
+                <p>força <input type="number"></p>
+                <p>Destreza <input type="number"></p>
+                <p>Inteligência <input type="number"></p>
+                <p>Habilidades Especiais</p>
+                <p><input type="checkbox" name="confirmar">Escalar</p>
+                <p><input type="checkbox" name="confirmar">Magia </p>
+                <p><input type="checkbox" name="confirmar">Negociação</p>
+                <p><input type="checkbox" name="confirmar">Intimidação</p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
